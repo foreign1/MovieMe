@@ -15,7 +15,7 @@ app.set("view engine", "ejs");
 
 // Navigation
 app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/views/all.html");
+  res.sendFile(__dirname + "/views/index.html");
 });
 
 app.get("/about", (req, res) => {
